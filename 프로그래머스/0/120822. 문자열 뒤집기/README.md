@@ -65,5 +65,16 @@
 <li><code>my_string</code>이 "bread"이므로 거꾸로 뒤집은 "daerb"를 return합니다.</li>
 </ul>
 
+1번째 설명 : 일단 먼저 빈리스트를 따로 생성 해준후 리스트에 몇개의 변수를
+넣을지 먼저 생성해준다. 그 후 변수안에 길이들을 구해주기 위해
+length를 통해 변수 하나하나 길이를 구해준후 그 값을 순서대로 answer의
+리스트에 넣어준다.
+![image](https://github.com/imhyeongjong/Algorithm/assets/85678935/68e2d5fb-fc4e-42d5-9652-ef0b325ccb5a)
+
+
+2번째 설명 : 리스트의 형태가 없기 때문에 문자열의 위치를 바꿔줄수 없으니
+간단하게 하기 위해서 charAt를 사용하여 문자열의 위치를 바꿔줄수 있다.
+![image](https://github.com/imhyeongjong/Algorithm/assets/85678935/fe0c7617-e35a-4c62-a4ae-d49fbbd1a839)
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
