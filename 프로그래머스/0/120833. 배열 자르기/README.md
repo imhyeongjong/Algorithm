@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 75.7 MB, 시간: 0.01 ms
+메모리: 76 MB, 시간: 2.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 31일 17:33:02
+2024년 03월 31일 17:46:41
 
 ### 문제 설명
 
@@ -73,12 +73,5 @@
 <li>[1, 3, 5]의 1번째 인덱스 3부터 2번째 인덱스 5까지 자른 [3, 5]를 return 합니다.</li>
 </ul>
 
-![](https://velog.velcdn.com/images/ap3878/post/294faa9d-6466-4bce-9ca7-3414db6097ca/image.png)
-설명1 : for에 i와j로 두개를 잡아준후 j를 1씩 증가하게 함으로써
-0부터 증가 할때마다 i의 num1부터 num2까지 추가하게 해준다.
-
-![](https://velog.velcdn.com/images/ap3878/post/b67b14ea-4265-4140-bfc5-7fac925995b0/image.png)
-설명2 : 좀 더 가독성 있게 Arrays.stream인 배열스트림으로 만들어 준후
-List를 Array로 바꿔주는 메서드인 toArray로 설정 해준다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
