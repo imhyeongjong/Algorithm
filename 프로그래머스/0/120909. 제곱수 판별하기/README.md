@@ -65,5 +65,8 @@
 <li>976은 제곱수가 아닙니다. 따라서 2를 return합니다.</li>
 </ul>
 
+설명 :
+1.제곱수이기 때문에 Math.sqrt로 만든다(이때 double를 사용해야만가능)
+2.그 후 int형으로 바꿔준후 if문으로 비교하기
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
