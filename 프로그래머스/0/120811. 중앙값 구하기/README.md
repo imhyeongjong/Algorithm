@@ -67,5 +67,7 @@
 <li>9, -1, 0을 오름차순 정렬하면 -1, 0, 9이고 가장 중앙에 위치하는 값은 0입니다.</li>
 </ul>
 
+설명 : Arraus.sort로 정렬을 해준후 array길이가 홀수이니
+2로 나눈값을 리스트로 선택해준다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
