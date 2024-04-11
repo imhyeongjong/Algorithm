@@ -76,5 +76,12 @@
 <li>"abcde0"에 있는 숫자 0을 오름차순 정렬한 [0]을 return 합니다.</li>
 </ul>
 
+<p>설명명</p>
+1. replaceAll를 사용해 "[^0-9]"인 0~9의 숫자가 아닌 문자열을 빈 문자열로 대체 한다.
+2. 그 후 리스트에 다 넣은후 ""의 문자들을 split을 통해 분리해준다.
+3. 그 후 정수형 리스트에 문자열 리스트의 길이를 넣어준다.
+4. 그 후 for문을 이용해 길이를 잰후
+5. answer에 my의 값들을 Integer.parseInt 형태로 바꿔준후 넣어준다.
+6. 그리고 나서 정렬을 해준다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
