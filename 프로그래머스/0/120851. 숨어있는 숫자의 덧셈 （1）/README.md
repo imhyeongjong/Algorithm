@@ -74,5 +74,10 @@
 <li>연속된 숫자도 각각 한 자리 숫자로 취급합니다.</li>
 </ul>
 
+설명
+1. replaceAll("[^0-9]","")를 통해 문자들을 전부 빈 문자로 바꿔준후
+2. 빈 문자들을 리스트에 분리 해준다.
+3. 그 후 answer에 Integer.parseInt형태로 my[i]를 정수로 바꿔주서
+더해준다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
