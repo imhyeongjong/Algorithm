@@ -76,5 +76,15 @@
 <li>두 수의 곱중 최댓값은 20 * 30 = 600 입니다.</li>
 </ul>
 
+![](https://velog.velcdn.com/images/ap3878/post/98d0ec0f-8928-4a95-9f19-2b2bd616d89d/image.png)
+
+Try : 뭐가 잘못된지를 모르겠다.. 가독성 때문인가?? 반복으로 계속 
+해주면 큰값이 나올 건데 뭐가 잘못된건지..
+
+![](https://velog.velcdn.com/images/ap3878/post/26f5e290-1ad8-4454-aa6f-3b6943e286a2/image.png)
+
+설명 : 결국엔 Arrays.sort로 정렬을 해준다음 0과1 혹은 -1과-2를 대비해서
+곱해서 둘중 제일 큰값인 Math.max로 나타낸다.
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
