@@ -78,5 +78,9 @@
 <li>"pfqallllabwaoclk" 의 2번째, 4번째, 6번째, 8번째, 10번째, 12번째, 14번째, 16번째 글자를 합친 "fallback"을 return합니다.</li>
 </ul>
 
+설명
+for문을 적용 시켜줘야 하니 일단 split으로 빈 문자열을 비어준다음
+첫 시작은 4번째이지만 리스트에서는 0부터 시작하니 -1로 빼준 다음에
+code의 값들로 더해주면 나타나게 된다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
