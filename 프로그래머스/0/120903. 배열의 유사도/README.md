@@ -71,5 +71,16 @@
 <li>같은 원소가 없으므로 0을 return합니다.</li>
 </ul>
 
+![](https://velog.velcdn.com/images/ap3878/post/bc665c22-453e-4f7b-b6e3-17e701f42ae2/image.png)채ㅜ
+
+오류
+**contains**는 일단 **문자열이 서로 100% 일치하지 않더라도, 포함되기만 하면 true가 리턴**이 되기 때문에 omg의 m과 s2의m이 같으므로 1이되기
+때문에 결과값과 달라서 오류가 나타나게 된다.
+
+![](https://velog.velcdn.com/images/ap3878/post/944059b8-9b61-4e80-801e-378cfa841bb3/image.png)
+
+정답
+**equals**는 **문자열이 서로 100% 일치해야만 true가 리턴**이 되니
+result의 값과 같이 나타나게 된다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
