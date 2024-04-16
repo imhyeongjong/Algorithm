@@ -74,5 +74,18 @@
 <li>"I love you"의 3번째 인덱스 "o"와 " "(공백)을 바꾸면 "I l veoyou"입니다.</li>
 </ul>
 
+![](https://velog.velcdn.com/images/ap3878/post/9a449029-0f49-48ab-b555-fd12704662c1/image.png)
+
+**오류**
+이미 num1의 문자를 num2로 바꿔주었기 때문에
+밑에 num2의 문자를 num1로 바꿔주면 위에있던 num1의 문자로 인식이 되니
+저렇게 오류가 날수 밖에 없다.
+
+![](https://velog.velcdn.com/images/ap3878/post/d6448b66-60f3-402e-b03d-5019e80dbd53/image.png)
+
+**설명**
+그러므로 한번에 적용을 하지 못하게 temp에는 num1에 값만
+num2는 num1의 값만 적용 그 후 num2는 temp의 값인 num1을 적용 시킨다.
+이렇게 해주면 위에있는 것을 해치지 않고 적용 해줄수 있게된다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
