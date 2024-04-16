@@ -66,5 +66,11 @@
 <li>소문자는 대문자로 대문자는 소문자로 바꾼 "ABcDeFGHij"를 return합니다.</li>
 </ul>
 
+설명
+for문을 이용하기 위해 리스트를 지정해주고
+length를 통해 길이를 결정한 다음
+0번째부터 비교하는값을 toUpperCase() 혹은 toLowerCase()로 만들어서
+비교해서 만약 대문자로 같다면 대문자를 넣어주고 소문자로 같다면
+소문자로 넣어준다.
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
